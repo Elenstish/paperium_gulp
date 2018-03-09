@@ -1,0 +1,43 @@
+//------HESITATE
+.wrap_hesitate {
+	background: url("../img/bg_hesitate1.png") 50% no-repeat;
+	background-size: cover;
+	padding-bottom: 20rem;
+	color: @colorDark;
+}
+.hesitate {
+	margin-top: -18rem;
+    padding-top: 20rem;
+	@media only screen and (max-width: @sm) {
+		margin-top: -22rem;
+		margin-bottom: 7rem;
+	}
+	&_h2 {
+		border-bottom: none;
+		line-height: 1.4;
+	}
+	&_text {
+		padding-left: 3.1rem;
+		padding-right: 3.1rem;
+		font-size: 1.4rem;
+		text-indent: 3.5rem;
+	}
+}
+.test_btn__med {
+	z-index: 10;
+	width: 19.4rem;
+	height: 4.5rem;
+	margin-right: 1.4rem;
+	margin-left: 1.4rem;
+	&:hover,
+	&:active {
+		box-shadow: .1rem 1px 1.8rem .7rem rgba(0,0,0,0.41);
+		border: 0;
+	}
+}
+.link_btn__med {
+	z-index: 10;
+	font-size: 1.8rem;
+	font-family: @fontFuturaMedium;
+	line-height: 3.9rem;
+}
