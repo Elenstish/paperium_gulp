@@ -10,18 +10,10 @@
 	<link rel="icon" href="img/favicon.png">
 	<link rel="stylesheet" href="libs/bootstrap.css">
 	<link rel="stylesheet" href="css/main.min.css">
-
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<![endif]-->
-
 </head>     
 <body>
-
 	<header class="header">		     
-		<nav class="navbar sticky-top header_menu">
+		<nav class="navbar header_menu">
 			<div class="menu_nav _navLinks">
 				<div class="overlay">
 					<a class="nav-link active" href="#home">Home</a>
@@ -33,7 +25,7 @@
 					<a class="nav-link" href="#why_us">Price</a>
 					<a class="nav-link" href="#why_us">Blog</a>
 					<div class="home_btn"><a href="#order" class="btn link_btn">ORDER</a></div>
-					<div class="color_btn"><a href="#order" class="btn link_btn">CHAT US</a></div>
+					<div class="home_btn home_btn__chat"><a href="#order" class="btn link_btn">CHAT US</a></div>
 				</div>
 			</div>
 			<div class="buttonmobile _burger" id="burger">
@@ -42,58 +34,49 @@
 				<div class="buttonmobile__line"></div>
 			</div>
 		</nav>
-		<div class="container">
-			<div class="part home col-12" id="home">
-				<div class="text-center">
-					<img src="img/logo1.png" alt="logo">
-				</div>
-				<div class="text-center home_title">
-					<h1 class="home_h1">Lorem ipsum dolor sit</h1>
-				</div>
-				<div class="home_subtitle">
-					<p class="text-left home_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
-				</div>
+		<div class="part d-flex flex-column justify-content-between home_wrap">
+			<div class="text-center home_logo">
+				<img src="img/logo1.png" alt="logo">
+			</div>
+			<div class="text-center" id="home">
+				<h1 class="home_title">Lorem ipsum dolor sit</h1>
+				<p class="text-left home_subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
 				<div class="home_btn home_btn__big"><a href="#hesitate" class="btn link_btn link_btn__big">ORDER</a></div>
 			</div>
 		</div>
 		<div class="bg2_home _parallax">
 			<img class="img-fluid" src="img/balloons.png" alt="balloons">
 		</div>
+		<div class="header_bottom"></div>
 	</header>
 	<main class="main">
-		<div class="wrap wrap_why_us col-12"  id="why_us">
-			<div class="part why_us">
-				<div class="animatable fadeInUp why_us_title text-center col-12">
-					<h2 class="why_us_h2">Why us</h2>
-				</div>
-				<div class="animatable fadeInUp col-12">
-					<p class="text-left why_us_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-				</div>
+		<div class="wrap wrap_why_us"  id="why_us">
+			<div class="part why_us text-center">
+				<h2 class="animatable fadeInUp why_us_title">Why us</h2>
+				<p class="text-left animatable fadeInUp why_us_subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
 			</div>
 		</div>
-		<div class="wrap wrap_guarantees col-12" id="guarantees">
-			<div class="part guarantees">
-				<div class="animatable fadeInUp guarantees_title col-12 text-center">
-					<h2 class="guarantees_h2 color_h2">guarantees</h2>
-				</div>
+		<div class="wrap wrap_guarantees" id="guarantees">
+			<div class="part guarantees text-center">
+				<h2 class="animatable fadeInUp guarantees_title guarantees_title__light">guarantees</h2>
 				<div class="row guarantees_item">
 					<div class="animatable fadeInUp col-sm item d-flex align-items-center">
-						<div class="row d-flex align-items-center guarantees_pic">
+						<div class="row d-flex align-items-center">
 							<div class="col-4 forma_svg text-center">
 								<svg class="forma"><use xlink:href="#forma"/></svg>
 							</div>
-							<div class="col-8 guarantees_disc">
+							<div class="col-8 text-left">
 								<h3>Lorem ipsum</h3>
 								<p class="guarantees_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
 							</div>
 						</div>
 					</div>
 					<div class="animatable fadeInUp col-sm item d-flex align-items-center">
-						<div class="row d-flex align-items-center guarantees_pic">
+						<div class="row d-flex align-items-center">
 							<div class="col-4 forma_svg text-center">
 								<svg class="forma"><use xlink:href="#forma"/></svg>
 							</div>
-							<div class="col-8 guarantees_disc">
+							<div class="col-8 text-left">
 								<h3>Lorem ipsum</h3>
 								<p class="guarantees_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
 							</div>
@@ -101,22 +84,22 @@
 					</div>
 					<div class="w-100"></div>
 					<div class="animatable fadeInUp col-sm item d-flex align-items-center">
-						<div class="row d-flex align-items-center guarantees_pic">
+						<div class="row d-flex align-items-center">
 							<div class="col-4 forma_svg text-center">
 								<svg class="forma"><use xlink:href="#forma"/></svg>
 							</div>
-							<div class="col-8 guarantees_disc">
+							<div class="col-8 text-left">
 								<h3>Lorem ipsum</h3>
 								<p class="guarantees_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
 							</div>
 						</div>
 					</div>
 					<div class="animatable fadeInUp col-sm item d-flex align-items-center">
-						<div class="row d-flex align-items-center guarantees_pic">
+						<div class="row d-flex align-items-center">
 							<div class="col-4 forma_svg text-center">
 								<svg class="forma"><use xlink:href="#forma"/></svg>
 							</div>
-							<div class="col-8 guarantees_disc">
+							<div class="col-8 text-left">
 								<h3>Lorem ipsum</h3>
 								<p class="guarantees_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
 							</div>
@@ -128,25 +111,23 @@
 				<img class="img-fluid" src="img/photo_1.png" alt="stone">
 			</div>
 		</div>
-		<div class="wrap wrap_hesitate col-12" id="hesitate">
-			<div class="part hesitate">
-				<div class="animatable fadeInUp hesitate_title col-12 text-center">
-					<h2 class="hesitate_h2">Still hesitating?</h2>
-				</div>
-				<div class="animatable fadeInUp col-12">
-					<p class="text-left hesitate_text">	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui</p>
-				</div>
+		<div class="wrap wrap_hesitate" id="hesitate">
+			<div class="part hesitate text-center">
+				<h2 class="animatable fadeInUp hesitate_title">Still hesitating?</h2>
+				<p class="animatable fadeInUp hesitate_subtitle">	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui</p>
 				<div class="row d-flex align-items-center justify-content-center">
-					<div class="home_btn test_btn__med"><a href="#order" class="btn link_btn link_btn__med">ORDER</a></div>
-					<div class="color_btn test_btn__med"><a href="#order" class="btn link_btn link_btn__med">CHAT US</a></div>
+					<div class="home_btn home_btn__med">
+						<a href="#order" class="btn link_btn link_btn__med">ORDER</a>
+					</div>
+					<div class="home_btn home_btn__chat home_btn__med">
+						<a href="#order" class="btn link_btn link_btn__med">CHAT US</a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="wrap wrap_testimonials col-12" id="testimonials">
-			<div class="testimonials">
-				<div class="animatable fadeInUp testimonials_title text-center col-12">
-					<h2 class="testimonials_h2 color_h2">Testimonials</h2>
-				</div>
+		<div class="wrap wrap_testimonials" id="testimonials">
+			<div class="testimonials text-center">
+				<h2 class="animatable fadeInUp testimonials_title guarantees_title__light">Testimonials</h2>
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -160,7 +141,7 @@
 								<div class="carousel-img  text-center avatar_svg">
 									<svg class="avatar"><use xlink:href="#avatar"/></svg>
 								</div>
-								<div class="carousel-desc">
+								<div class="carousel-desc text-left">
 									<h3 class="testimonials_h3">Mr. Nobody</h3>
 									<h4>student</h4>
 									<p class="testimonials_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae</p>
@@ -172,7 +153,7 @@
 								<div class="carousel-img  text-center avatar_svg">
 									<svg class="avatar"><use xlink:href="#avatar"/></svg>
 								</div>
-								<div class="carousel-desc">
+								<div class="carousel-desc text-left">
 									<h3 class="testimonials_h3">Mr. Nobody</h3>
 									<h4>student</h4>
 									<p class="testimonials_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae</p>
@@ -184,7 +165,7 @@
 								<div class="carousel-img  text-center avatar_svg">
 									<svg class="avatar"><use xlink:href="#avatar"/></svg>
 								</div>
-								<div class="carousel-desc">
+								<div class="carousel-desc text-left">
 									<h3 class="testimonials_h3">Mr. Nobody</h3>
 									<h4>student</h4>
 									<p class="testimonials_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae</p>
@@ -196,7 +177,7 @@
 								<div class="carousel-img  text-center avatar_svg">
 									<svg class="avatar"><use xlink:href="#avatar"/></svg>
 								</div>
-								<div class="carousel-desc">
+								<div class="carousel-desc text-left">
 									<h3 class="testimonials_h3">Mr. Nobody</h3>
 									<h4>student</h4>
 									<p class="testimonials_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae</p>
@@ -214,21 +195,15 @@
 			</div>
 		</div>
 		<div class="wrap wrap_order" id="order">
-			<div class="part order">
-				<div class="animatable fadeInUp order_title text-center col-12">
-					<h2 class="order_h2">Order right now!</h2>
-				</div>
-				<div class="animatable fadeInUp col-12">
-					<p class="text-left order_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa</p>
-				</div>
-				<div class="home_btn home_btn__big order_btn"><a href="#" class="btn link_btn link_btn__big">ORDER</a></div>
+			<div class="order text-center">
+			<h2 class="animatable fadeInUp order_title">Order right now!</h2>
+			<p class="animatable fadeInUp text-left order_subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa</p>
+			<div class="home_btn home_btn__big order_btn"><a href="#" class="btn link_btn link_btn__big">ORDER</a></div>
 			</div>
 		</div>
 	</main>
-	<footer class="footer row">
-		<div class="col-12">
-			<p class="text-center footer_h2">© Copyright 2017 by   All rights reserved</p>
-		</div>
+	<footer class="footer">
+		<p class="text-center footer_text">© Copyright 2017 by   All rights reserved</p>
 	</footer>
 
 	<svg style="display:none;">
